@@ -1,0 +1,11 @@
+{
+  "name": "dummy_nodejs",
+  "version": "0.1.0",
+  "description": "dummy nodejs server for demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Dicky Li",
+  "license": "ISC"
+}

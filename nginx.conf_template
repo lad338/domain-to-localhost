@@ -1,0 +1,11 @@
+events {}
+http {
+  server {
+    listen 0.0.0.0:80;
+    server_name $MY_DOMAIN_NAME;
+
+    location / {
+      proxy_pass http://localnode:$APP_PORT;
+    }
+  }
+}
